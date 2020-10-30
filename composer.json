@@ -1,9 +1,9 @@
 {
   "autoload": {
     "psr-4": {
-      "Core\\": "Core",
-      "Application\\Controllers\\" : "Application/Controllers",
-      "Application\\Models\\": "Application/Models"
+      "Core\\": "core",
+      "Application\\Controllers\\" : "application/controllers",
+      "Application\\Models\\": "application/models"
     }
   },
   "require": {
