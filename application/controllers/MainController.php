@@ -8,7 +8,12 @@ class MainController extends Controller
 {
     public function actionIndex()
     {
-        $this->view->generate('main-view.php', 'template-view.php');
+        $this->view->generate('main-view.php');
+    }
+
+    public function actionStep()
+    {
+        $this->view->generate('step2-view.php');
     }
 
 }

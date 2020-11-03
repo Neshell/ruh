@@ -6,7 +6,7 @@ namespace Core;
 
 class View
 {
-    public function generate($contentView, $templateView, $data = null)
+    public function generate($contentView, $templateView = 'template-view.php', $data = null)
     {
         include '../application/views/' . $templateView;
     }

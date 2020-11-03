@@ -1,4 +1,4 @@
-<form>
+<form method="post" action="main/step">
     <h1>reg</h1>
     <div class="form-group">
         <input type="email" class="form-control" placeholder="Введіть вашу пошту" id="exampleInputEmail1" aria-describedby="emailHelp">
