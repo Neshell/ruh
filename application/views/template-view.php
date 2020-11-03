@@ -43,7 +43,12 @@
         </nav>
     </div>
 </header>
+
+
+
 <?php include '../application/views/' . $contentView; ?>
+
+
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
