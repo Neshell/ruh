@@ -10,7 +10,12 @@ body {
 .nav-item {
   color: white;
 }
-
+.nav-item .volume-up{
+  width: 25px;
+}
+.nav-item .dropdown-menu{
+  min-width: auto;
+}
 form {
   background: #E1DBDB50;
   padding: 30px 70px;
@@ -26,6 +31,16 @@ form {
 
 .container-fluid {
   width: 90%;
+}
+
+.about_us_desc {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+.about_us_desc .about_us_img {
+  height: 75px;
+  padding: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

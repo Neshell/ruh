@@ -18,21 +18,26 @@
         <nav>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Active</a>
+                    <a class="nav-link text-light" href="#">
+                        <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Link</a>
+                    <a class="nav-link text-light" href="/aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/main">register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/login">login</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ukr</a>
+                    <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false">ukr</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">ukr</a>
                         <a class="dropdown-item" href="#">rus</a>
                         <a class="dropdown-item" href="#">eng</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Link</a>
                 </li>
             </ul>
         </nav>
