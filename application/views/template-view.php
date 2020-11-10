@@ -21,9 +21,7 @@
                     <a class="nav-link text-light" href="#">
                         <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt=""></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="/aboutus">About Us</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link text-light" href="/main">register</a>
                 </li>
@@ -39,11 +37,13 @@
                         <a class="dropdown-item" href="#">eng</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/aboutus">About Us</a>
+                </li>
             </ul>
         </nav>
     </div>
 </header>
-
 
 
 <?php include '../application/views/' . $contentView; ?>
