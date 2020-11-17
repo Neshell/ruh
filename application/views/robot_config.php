@@ -23,13 +23,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/robot_conf/head 1.png" alt="First slide">
+            <img class="d-block w-12" src="/img/robot_conf/head 1.png" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
+            <img class="d-block w-12 " src="..." alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <img class="d-block w-12" src="..." alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -46,13 +46,13 @@
     <div id="carouselExampleControls" class="carousel slide " data-interval="false" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/robot_conf/body.png" alt="First slide">
+                <img class="d-block w-12" src="/img/robot_conf/body.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
+                <img class="d-block w-12" src="..." alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
+                <img class="d-block w-12" src="..." alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -68,13 +68,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/robot_conf/left-hand 1.png" alt="First slide">
+                <img class="d-block w-12" src="/img/robot_conf/left-hand 1.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
+                <img class="d-block w-12" src="..." alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
+                <img class="d-block w-12" src="..." alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -92,13 +92,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/robot_conf/leg 1.png" alt="First slide">
+            <img class="d-block w-12" src="/img/robot_conf/leg 1.png" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
+            <img class="d-block w-12" src="..." alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <img class="d-block w-12" src="..." alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

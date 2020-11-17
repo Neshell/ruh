@@ -20,6 +20,9 @@ body
     min-width: auto
 
 /*FORMS*/
+
+
+
 form
   background: #E1DBDB50
   padding: 30px 70px
@@ -32,15 +35,13 @@ form
   -webkit-transform: translate(-50%, -50%)
   -ms-transform: translate(-50%, -50%)
   transform: translate(-50%, -50%)
-
-  input[type=text], input[type=email], input[type=password]
+  .form-control
     border: none
     text-align: center
     background-color: #C4C4C450
-
-  .form-control:focus
-    background-color: #C4C4C450
-    border: none
+    &:focus
+      background-color: #C4C4C450
+      border: none
 
 /* ABOUT US*/
 .about_us_desc
@@ -90,10 +91,15 @@ form
 .carouselExampleControls
   width: 75%
 
-.carousel-item
-  width: 12%
+.carousel-item  img
+  margin: 0 auto
+  text-align: center
 
 
+/* CONFIG - ROBOT */
+.d-block
+  margin: 0 auto
+  text-align: center
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

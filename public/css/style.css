@@ -37,7 +37,7 @@ form {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-form input[type=text], form input[type=email], form input[type=password] {
+form .form-control {
   border: none;
   text-align: center;
   background-color: #C4C4C450;
@@ -98,8 +98,15 @@ form .form-control:focus {
   width: 75%;
 }
 
-.carousel-item {
-  width: 12%;
+.carousel-item img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* CONFIG - ROBOT */
+.d-block {
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
