@@ -27,17 +27,4 @@ class MainController extends Controller
     }
 
 
-    public function actionStepTwo()
-    {
-        var_dump($_SESSION);
-        $this->view->generate('step2-view.php');
-    }
-
-    public function actionStepByStep()
-    {
-        var_dump($_SESSION);
-        $this->model->registrationStepTwo($_POST['name'], $_POST['age'], $_POST['sex']);
-        header('Location: /config');
-    }
-
 }
