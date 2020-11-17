@@ -25,6 +25,7 @@
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#">
                         <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt=""></a>
+                        <img src="" alt="">
                 </li>
 
                 <li class="nav-item">
