@@ -1,6 +1,6 @@
 function myFunction(y) {
     var x = document.getElementsByClassName("password");
-    if (y === 'checkbox1'){
+    if (y === 'checkbox1') {
         x = x[0];
     } else {
         x = x[1];
@@ -12,3 +12,6 @@ function myFunction(y) {
     }
 }
 
+function volume() {
+    document.getElementById("vol")
+}

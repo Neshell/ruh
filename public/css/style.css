@@ -66,7 +66,7 @@ form .form-control:focus {
 }
 
 .body_element {
-  margin: 30px 10px;
+  margin: 25px 10px;
   width: 80px;
   height: 80px;
   background-color: cadetblue;
@@ -93,22 +93,15 @@ form .form-control:focus {
   background-repeat: no-repeat;
 }
 
+.config__item {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+
 /* CAROUSEL*/
-.carouselExampleControls {
-  width: 75%;
-}
-
-.carousel-item img {
-  margin: 0 auto;
-  text-align: center;
-}
-
 /* CONFIG - ROBOT */
-.d-block {
-  margin: 0 auto;
-  text-align: center;
-}
-
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 
