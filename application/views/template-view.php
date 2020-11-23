@@ -29,7 +29,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="/main">register</a>
+                    <a class="nav-link text-light" href="/registration">register</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="/login">login</a>
