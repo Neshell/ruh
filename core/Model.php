@@ -10,6 +10,6 @@ class Model
 
     public function __construct()
     {
-        $this->dataConnect = new PDO("mysql:host=localhost;dbname=Ruhanka;charset=utf8", 'root', '');
+        $this->dataConnect = new PDO("mysql:host=localhost;dbname=Ruhanka;charset=utf8", 'root', 'root');
     }
 }

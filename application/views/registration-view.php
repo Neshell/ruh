@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-            <form method="post" action="main/step">
+            <form method="post" action="registration/step">
                 <h1>Реєстрація</h1>
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Введіть вашу пошту" id="exampleInputEmail1"
@@ -38,7 +38,7 @@
 
                 </div>
                 <div class="form-group">
-                    <select class="custom-select form-control mr-sm-2" id="inlineFormCustomSelect">
+                    <select name="sex" class="custom-select form-control mr-sm-2" id="inlineFormCustomSelect">
                         <option value="0" selected>Хлопчик</option>
                         <option value="1">Дівчинка</option>
                     </select>
