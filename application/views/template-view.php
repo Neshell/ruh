@@ -12,37 +12,50 @@
           href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
           crossorigin="anonymous">
+
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
     <title>Ruhanka</title>
 </head>
 <body>
-<script  src="/public/js/script.js"></script>
-
+<script src="/public/js/script.js"></script>
 <header>
     <div class="container-fluid">
-        <nav>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">
-                        <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt="" id="vol" onclick="volume()"></a>
+        <nav class="navbar navbar-expand-lg  navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="n  avbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt="" id="vol"
+                                 onclick="volume()"></a>
                         <img src="" alt="">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="/main">Реєстрація</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="/login">Логін</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                       aria-haspopup="true" aria-expanded="false">ukr</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Укр</a>
-                        <a class="dropdown-item" href="#">Рус</a>
-                        <a class="dropdown-item" href="#">eng</a>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/">Реєстрація</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/login">Логін</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="true" aria-expanded="false">ukr</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Укр</a>
+                            <a class="dropdown-item" href="#">Рус</a>
+                            <a class="dropdown-item" href="#">eng</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
@@ -53,12 +66,7 @@
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+
 <script src="/js/script.js"></script>
 
 <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
