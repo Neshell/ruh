@@ -15,6 +15,7 @@ class RegistrationModel extends Model
 
     public function registration($email, $password, $twoPassword, $name, $age, $sex)
     {
+        var_dump($_POST);
         if (!empty($email) and !empty($password) and !empty($twoPassword) and !empty($name) and !empty($age) and !empty($sex)) {
             if (trim($password) === trim($twoPassword)) {
                 $password = password_hash($password, PASSWORD_DEFAULT);
@@ -22,13 +23,16 @@ class RegistrationModel extends Model
                 $validationEmail->bindParam(":email", $email);
                 $validationEmail->execute();
                 if ($validationEmail->fetchColumn() == '0') {
-                    var_dump($_POST);
-                    $insertRegistrationData = $this->dataConnect->prepare('INSERT INTO users(email, password, name, age, sex) VALUES (:email, :password, :name, :age, :sex)');
+                    $createRobot = $this->dataConnect->query('INSERT INTO (head, body, hand, leg) VALUES (1, 2, 3, 4)');
+                    $robotId = $this->dataConnect->lastInsertId();
+
+                    $insertRegistrationData = $this->dataConnect->prepare('INSERT INTO users(email, password, name, age, sex, robot_id) VALUES (:email, :password, :name, :age, :sex, :robot_id)');
                     $insertRegistrationData->bindParam(":email", $email);
                     $insertRegistrationData->bindParam(":password", $password);
                     $insertRegistrationData->bindParam(':name', $name);
                     $insertRegistrationData->bindParam(':age', $age);
                     $insertRegistrationData->bindParam(':sex', $sex);
+                    $insertRegistrationData->bindParam(':robot_id', $robotId);
                     $insertRegistrationData->execute();
                     if ($insertRegistrationData) {
                         echo 'Добавлено';

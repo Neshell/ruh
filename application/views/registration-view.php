@@ -20,19 +20,19 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-xl">
-            <form method="post" action="registration/step">
+            <form method="post" action="registration/stepRegistration">
                 <h1>Реєстрація</h1>
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Введіть вашу пошту" id="exampleInputEmail1"
+                    <input name="email" type="email" class="form-control" placeholder="Введіть вашу пошту" id="exampleInputEmail1"
                            aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Вигадайте пароль" class="password form-control"
+                    <input name="password" type="password" placeholder="Вигадайте пароль" class="password form-control"
                            id="exampleInputPassword">
                     <input type="checkbox" onclick="myFunction(this.id)" id="checkbox1">Показати пароль
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Повторіть пароль " class="password form-control"
+                    <input name="twoPassword" type="password" placeholder="Повторіть пароль " class="password form-control"
                            id="exampleInputPassword1">
                     <input type="checkbox" onclick="myFunction(this.id)" id="checkbox2">Показати пароль
 
@@ -44,11 +44,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Імя робота"
+                    <input name="name" type="text" class="form-control" placeholder="Імя робота"
                            aria-describedby="emailHelp">
                 </div>
                 <div class="form-group">
-                    <input type="number" class="form-control" placeholder="Ваш вік""
+                    <input name="age" type="number" class="form-control" placeholder="Ваш вік"
                     aria-describedby="emailHelp">
                 </div>
                 <button type="submit" class="btn btn-primary">Регістрація</button>

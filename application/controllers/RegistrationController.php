@@ -16,10 +16,13 @@ class RegistrationController extends Controller
     public function actionIndex()
     {
         $this->view->generate('registration-view.php');
+//        $this->model->registration($_POST['email'], $_POST['password'], $_POST['twoPassword'], $_POST['name'], $_POST['age'], $_POST['sex']);
+//        header('Location: /config');
     }
 
-    public function actionStep()
+    public function actionStepRegistration()
     {
+        var_dump($_POST);
         $this->model->registration($_POST['email'], $_POST['password'], $_POST['twoPassword'], $_POST['name'], $_POST['age'], $_POST['sex']);
         header('Location: /config');
     }

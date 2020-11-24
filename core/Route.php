@@ -9,7 +9,7 @@ class Route
 
     static function start()
     {
-        $controllerName = 'main';
+        $controllerName = 'registration';
         $actionName = 'index';
         $routes = explode('/', $_SERVER['REQUEST_URI']);
 
