@@ -27,7 +27,6 @@
                         <img src="/img/icons/volume_up.svg" class="img-fluid volume-up" alt="" id="vol" onclick="volume()"></a>
                         <img src="" alt="">
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link text-light" href="/main">Реєстрація</a>
                 </li>
@@ -42,9 +41,6 @@
                         <a class="dropdown-item" href="#">Рус</a>
                         <a class="dropdown-item" href="#">eng</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="/aboutus">Про насs</a>
                 </li>
             </ul>
         </nav>

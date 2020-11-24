@@ -4,7 +4,10 @@
   margin: 0
 
 body
-  background: lightcoral
+  background: url("/img/bg.png") no-repeat
+  background-size: cover
+  overflow-x: hidden
+
 
 .container-fluid
   width: 90%
@@ -12,41 +15,38 @@ body
 /* NAV*/
 .nav-item
   color: white
-
   .volume-up
     width: 25px
-
   .dropdown-menu
     min-width: auto
 
+
+/* registration page*/
+.main-view__outer
+  margin: 0 auto
+  display: flex
+  position: fixed
+  top: 20%
+  justify-content: space-between
 /*FORMS*/
 
 form
-  background: #E1DBDB50
-  padding: 30px 70px
-  border-radius: 25px
   text-align: center
-  position: absolute
-  width: 420px
-  top: 50%
-  left: 50%
-  -webkit-transform: translate(-50%, -50%)
-  -ms-transform: translate(-50%, -50%)
-  transform: translate(-50%, -50%)
+  max-width: 400px
+  margin: 0 auto
   .form-control
     border: none
-    text-align: center
-    background-color: #C4C4C450
+    background-color: #C4C4C470
     &:focus
-      background-color: #C4C4C450
+      background-color: #C4C4C470
       border: none
+
 
 /* ABOUT US*/
 .about_us_desc
-  text-align: center
   margin: 0 auto
-  width: 50%
-
+  max-width: 50%
+  font-size: 1em
   .about_us_img
     padding: 20px 0
 
@@ -100,3 +100,8 @@ form
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
+/*media queries*/
+
+@media screen and (max-width: 992px)
+  body
+    background: url("/img/mobile_bg.jpg")
