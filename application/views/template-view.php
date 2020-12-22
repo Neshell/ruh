@@ -28,7 +28,7 @@
                         <img src="" alt="">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="/main">Реєстрація</a>
+                    <a class="nav-link text-light" href='/  '>Реєстрація</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="/login">Логін</a>
