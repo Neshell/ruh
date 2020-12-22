@@ -51,9 +51,6 @@ class RegistrationModel extends Model
         if (!empty($message)) {
             $return = $message;
         }
-
         return $return;
-
-
     }
 }
