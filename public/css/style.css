@@ -1,0 +1,121 @@
+/*GLOBAL*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("/img/bg.png") no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: 90%;
+}
+
+/* NAV*/
+.nav-item {
+  color: white;
+}
+.nav-item .volume-up {
+  width: 25px;
+}
+.nav-item .dropdown-menu {
+  min-width: auto;
+}
+
+/* registration page*/
+.main-view__outer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*FORMS*/
+form {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+form .form-control {
+  border: none;
+  background-color: #C4C4C470;
+}
+form .form-control:focus {
+  background-color: #C4C4C470;
+  border: none;
+}
+
+/* ABOUT US*/
+.about_us_desc {
+  margin: 0 auto;
+  max-width: 50%;
+  font-size: 1em;
+}
+.about_us_desc .about_us_img {
+  padding: 20px 0;
+}
+
+/*error 404*/
+/* ROBOT CONFIG */
+.side_bar_body {
+  position: absolute;
+  width: 125px;
+  height: 100vh;
+}
+
+.body_element {
+  margin: 25px 10px;
+  width: 80px;
+  height: 80px;
+  background-color: cadetblue;
+  border-radius: 70px;
+  background-repeat: no-repeat;
+}
+
+.side_bar_control .head_change {
+  background-image: url("/img/robot_conf/head 1.png");
+}
+
+.side_bar_control .hand_change {
+  background-image: url("/img/robot_conf/body.png");
+}
+
+.side_bar_control .body_change {
+  background-image: url("/img/robot_conf/left-hand 1.png");
+}
+
+.side_bar_control .legs_change {
+  background-image: url("/img/robot_conf/leg 1.png");
+}
+
+.config__item {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+/* CAROUSEL*/
+/* CONFIG - ROBOT */
+/*MOVE*/
+.controllers {
+  margin: 15px 15px;
+}
+.controllers .btn {
+  width: 110px;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*media queries*/
+@media screen and (max-width: 992px) {
+  body {
+    background: url("/img/mobile_bg.jpg");
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
